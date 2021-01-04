@@ -1,0 +1,1 @@
+exports.MS = require('./ms');

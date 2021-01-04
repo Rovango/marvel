@@ -1,0 +1,47 @@
+@import '../../styles/mixins';
+
+.examples-side-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 260px;
+  height: 100%;
+  margin: 0;
+  padding: 40px;
+  overflow: auto;
+  background-color: #f7f7f7;
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    padding: 8px;
+  }
+
+  a {
+    color: #2db7f5;
+    text-decoration: none;
+    &:hover {
+      color: #f90;
+    }
+  }
+
+  .memo {
+    &::before {
+      display: block;
+      width: 60px;
+      height: 2px;
+      margin-bottom: 10px;
+      background-color: #ddd;
+      content: ' ';
+    }
+
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 13px;
+    line-height: 150%;
+  }
+}

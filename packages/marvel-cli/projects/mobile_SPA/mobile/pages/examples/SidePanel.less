@@ -1,0 +1,48 @@
+@import '../../styles/mixins';
+
+.examples-side-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 2.4rem;
+  height: 100%;
+  margin: 0;
+  padding: 0.4rem;
+  overflow: auto;
+  font-size: 0.12rem;
+  background-color: #f7f7f7;
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    padding: 0.08rem;
+  }
+
+  a {
+    color: #2db7f5;
+    text-decoration: none;
+    &:hover {
+      color: #f90;
+    }
+  }
+
+  .memo {
+    &::before {
+      display: block;
+      width: 0.6rem;
+      height: 0.02rem;
+      margin-bottom: 0.1rem;
+      background-color: #ddd;
+      content: ' ';
+    }
+
+    margin-top: 0.4rem;
+    color: #aaa;
+    font-size: 0.14rem;
+    line-height: 150%;
+  }
+}

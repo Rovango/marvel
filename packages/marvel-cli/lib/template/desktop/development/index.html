@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Bybit</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <style>
+        html {
+            font-size: 15.625vw;
+        }
+        body {
+            background: #f5f5f5;
+            margin: 0;
+        }
+        .ui-loading-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            display: -webkit-box;
+            display: box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-pack: center;
+            -webkit-box-align: center;
+        }
+        .ui-loading {
+            position: relative;
+            width: .64rem;
+            height: .64rem;
+            margin: 0 auto;
+        }
+        .ui-loading > div {
+            position: absolute;
+            display: inline-block;
+            background-color: #D8D8D8;
+            top: 50%;
+            left: 50%;
+            width: .16rem;
+            height: .16rem;
+            margin-top: -0.08rem;
+            margin-left: -0.08rem;
+            border-radius: 100%;
+            -webkit-animation: loading-fade 1s infinite linear;
+            animation: loading-fade 1s infinite linear;
+        }
+        .ui-loading > div:nth-child(1) {
+            top: 5%;
+            left: 50%;
+            -webkit-animation-delay: -0.875s;
+            animation-delay: -0.875s;
+        }
+        .ui-loading > div:nth-child(2) {
+            top: 18%;
+            left: 82%;
+            -webkit-animation-delay: -0.75s;
+            animation-delay: -0.75s;
+        }
+        .ui-loading > div:nth-child(3) {
+            top: 50%;
+            left: 95%;
+            -webkit-animation-delay: -0.625s;
+            animation-delay: -0.625s;
+        }
+        .ui-loading > div:nth-child(4) {
+            top: 82%;
+            left: 82%;
+            -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+        }
+        .ui-loading > div:nth-child(5) {
+            top: 95%;
+            left: 50%;
+            -webkit-animation-delay: -0.375s;
+            animation-delay: -0.375s;
+        }
+        .ui-loading > div:nth-child(6) {
+            top: 82%;
+            left: 18%;
+            -webkit-animation-delay: -0.25s;
+            animation-delay: -0.25s;
+        }
+        .ui-loading > div:nth-child(7) {
+            top: 50%;
+            left: 5%;
+            -webkit-animation-delay: -0.125s;
+            animation-delay: -0.125s;
+        }
+        .ui-loading > div:nth-child(8) {
+            top: 18%;
+            left: 18%;
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+        @-webkit-keyframes loading-fade {
+            50% {
+                opacity: .3;
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+        }
+        @keyframes loading-fade {
+            50% {
+                opacity: .3;
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+            }
+                100% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+        </style>
+        <div class="ui-loading-wrapper">
+            <div class="ui-loading">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "@zrf9018/marvel-mock-server",
+  "version": "0.0.1",
+  "description": "marvel mock server",
+  "main": "lib/index.js",
+  "author": "rovango.zheng",
+  "license": "MIT"
+}
