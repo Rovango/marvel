@@ -5,6 +5,8 @@ exports.VERSION = require('./VERSION');
 
 exports.MARVEL_CLI_NAME = require('./NAME');
 
+exports.MARVEL_BIN_NAME = 'marvel-test';
+
 exports.PROJECT_TYPES = require('./types/project-types.js');
 
 exports.PLATFORM_TYPES = require('./types/platform-types.js');

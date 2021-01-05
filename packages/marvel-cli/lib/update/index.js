@@ -8,7 +8,7 @@ const queryForceUpdate = require('./queryForceUpdate');
 program
   .version(VERSION)
   .name('[npx] marvel update')
-  .description('@bybit/marvel-cli update helper')
+  .description(`${MARVEL_CLI_NAME} update helper`)
   .option('-f, --force', 'force update')
   .option('-s, --slient', 'check update sliently')
   .parse(process.argv);
