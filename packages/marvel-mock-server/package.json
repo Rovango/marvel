@@ -1,6 +1,6 @@
 {
   "name": "@zrf9018/marvel-mock-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "marvel mock server",
   "main": "lib/index.js",
   "bin": {

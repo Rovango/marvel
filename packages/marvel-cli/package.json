@@ -1,6 +1,6 @@
 {
   "name": "@zrf9018/marvel-cli",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "main": "bin/index.js",
   "description": "a front-end cli for creating and maintain multi project",
   "keywords": [
@@ -35,7 +35,7 @@
     "@sentry/webpack-plugin": "1.11.1",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
-    "@zrf9018/marvel-mock-server": "^0.0.1",
+    "@zrf9018/marvel-mock-server": "^0.0.2",
     "address": "^1.1.2",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
