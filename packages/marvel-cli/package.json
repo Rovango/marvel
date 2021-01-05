@@ -12,7 +12,7 @@
   "author": "Rovango",
   "license": "MIT",
   "bin": {
-    "marvel-test": "bin/index.js"
+    "marvel-cli": "bin/index.js"
   },
   "scripts": {
     "lint": "eslint ./lib",
